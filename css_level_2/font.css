@@ -1,0 +1,18 @@
+h1{
+  font: "Arial";
+  text-align: center;
+}
+p{
+  font-family: monospace;
+  font-weight: bold;
+}
+body{
+  font-size: 20px;
+}
+#withid{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 2em;
+}
+/* 1em = 16px;
+2em = 32px; */

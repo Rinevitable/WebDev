@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lables</title>
+  </head>
+  <body>
+    <h1>These are forms using Labels</h1>
+    <h3>LOG IN </h3>
+    <!-- using bad way to use lable tag -->
+  <form class="" action="tables.html" method="get">
+   <label>
+        Enter Email:
+        <input type="email" name="" value="Email_id" required>
+      </label>
+      <label>
+        Enter Text:
+        <input type="text" name="" placeholder="Using Placeholder raher than value" >
+      </label>
+      <input type="submit" name="" value="submit">
+    </form>
+    <!-- //using for tag in label -->
+    <h1>Another form</h1>
+    <form class="" action="forms.html" method="get">
+     <label for="this_one"></label>
+     Enter Email:
+     <input id="this_one"type="email" name="" placeholder="Enter Email">
+     Enter text:
+     <input id="this_one"type="text" name="" value="Any text" required>
+     <input id="this_one"type="submit" name="" value="submit">
+      </form>
+  </body>
+</html>

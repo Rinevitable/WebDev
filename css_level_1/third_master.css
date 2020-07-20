@@ -1,0 +1,42 @@
+/* .selectedclass{
+  property: value
+} */
+/* #id{
+  property:value
+} */
+.firstDiv{
+  color:blue;
+}
+.secondDiv{
+  color: red;
+}
+#Unique{
+  color: green;
+  text-decoration: underline;
+}
+/* selector */
+h3+ol{
+  border:4px dotted purple;
+}
+/* all anchor tag inside list */
+li a{
+  color: red;
+}
+/* specific anchor tag */
+li a[href="https://www.youtube.com/"]{
+  border:2px solid green ;
+  color: yellow;
+}
+*{
+  background:grey;
+}
+/* Specificity*/
+li{
+  color: green;
+}
+.this_class{
+  color:blue;
+}
+#this_id{
+  color:red;
+}

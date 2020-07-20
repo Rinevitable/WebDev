@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>forms2</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form!</h1>
+    <h3>Are you from inside the USA? Or outside?</h3>
+    <form class="" action="" method="post">
+      <label>
+        <!-- same name is used for linking the radio button together -->
+        Inside: <input type="radio" name="x" value="">
+        Outside: <input type="radio" name="x" value="">
+      </label>
+      <p>Now using 2 Labels for use of backend</p>
+      <h3>Are you comfotable in English</h3>
+
+      <label for="yes">
+        Yes:<input type="radio" name="ans" value="1">
+      </label>
+      <label for="no">
+        No:<input type="radio" name="ans" value="0">
+      </label>
+
+      <h3>How was your service?(3 being great,2 satisfactory,1 poor) </h3>
+      <!-- select and option are used here rather input -->
+      <select class="stars" name="">
+        <option value="Great">3</option>
+        <option value="satisfactory">2</option>
+        <option value="poor">1</option>
+      </select>
+      <h3>Any other feedback</h3>
+      <!-- using textarea rather text input -->
+      <textarea name="feedback" rows="8" cols="80"></textarea>
+      <input type="submit" name="" value="submit feedback">
+    </form>
+  </body>
+</html>
