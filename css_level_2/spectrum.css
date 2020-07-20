@@ -1,0 +1,31 @@
+h1{
+  font-family: serif;
+  text-align: center;
+}
+.spectrum{
+  border: 6px solid black;
+  /* this is table border only */
+  margin: auto;
+
+}
+td{
+  background-color: black;
+  height:500px;
+  width:150px;
+  border: 5px solid white;
+}
+#one{
+  background-color: #FF595E;
+}
+#two{
+  background-color: #FFCA3A;
+}
+#three{
+  background-color: #8AC926;
+}
+#four{
+  background-color: #1982C4;
+}
+#five{
+  background-color: #6A4C93;
+}

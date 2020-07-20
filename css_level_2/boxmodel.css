@@ -1,0 +1,20 @@
+#top{
+  border: 3px solid orange;
+  color :red;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+#middle{
+
+  border: 3px solid black;
+  width: 70%;
+    /* top right bottom left */
+    margin:10px 30px 10px 30px;
+}
+#bottom{
+  text-align: center;
+  border: 3px solid green;
+  padding: 100px;
+  width: 90%;
+}
