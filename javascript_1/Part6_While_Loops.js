@@ -3,7 +3,7 @@ var x = 0;
 while(x < 5){
     console.log("x is currently: "+ x);
     console.log("x is still less than 5, adding 1 to x");
-    x = x++;
+    x++;
 }
 
 var x = 0
@@ -14,7 +14,7 @@ while(x < 5){
       break;
     }
     console.log("x is still less than 5, adding 1 to x");
-    x = x++;
+    x++;
 }
 
 //while loop that prints out only the even numbers from 1 to 10.
