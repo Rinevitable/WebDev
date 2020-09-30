@@ -86,9 +86,10 @@
   };
   var kiwi=new Fruitclass("green","sour");
 
-  var banana=class fruitclass2{
+   let fruitclass2=class{
     constructor(color,taste){
       this.taste=taste;
       this.color=color;
     }
   };
+  var Banana=new fruitclass2("yellow","sweet");
