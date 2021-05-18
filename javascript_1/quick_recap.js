@@ -20,11 +20,14 @@
     }
     fun();
     console.log("Now a got the valuue of a in start that is global value",a);
+    n=81;
     var square_root=function(n){
       console.log("inside fxn expression ")
       return Math.sqrt(n);
     }//these fxn are not hoisted ;
-
+    console.log(n);//give out global variable
+    square_root(9);//give you fxn
+    console.log(square_root(9));//print value
 // Array and Methods
     let arr =["apple","Mango","Banana","orange"];
     for(let i=0;i<arr.length;i++){
